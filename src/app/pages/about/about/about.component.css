@@ -1,0 +1,99 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255,225);
+    background: rgb(255, 209, 135);
+    background: linear-gradient(rgba(255, 209, 135) 0%, rgba(216,141,64,1) 100%);
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(234, 113, 101);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 35%;
+    margin-bottom: 20px;
+}
+
+.bio {
+    flex: 1;
+}
+
+.bio h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.bio p {
+    line-height: 1.6;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.details h2 {
+    border-bottom: 2px solid color(rgb(234, 113, 101));
+    padding-bottom: 10px;
+    color: rgb(234, 113, 101);
+}
+
+.details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.details ul li {
+    background: #4CAF50;
+    color: rgb(255, 255, 225);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.details a {
+    color: rgb(255, 255, 225);
+    text-decoration: underline;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+    color: #999;
+}
